@@ -2,10 +2,12 @@
   display: inline-block;
   text-align: center;
   width: 3em;
+  color:black;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
+  background: rgb(154, 167, 230);
  }
  .activeCard {
   color: red;
@@ -13,13 +15,35 @@
  }
  .button {
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 30px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
 }
-.button1 {background-color: #0ab6e1;} 
+.button1 {background-color: #8dc7bd;} 
+.background{
+  background-color: #4d6d8ad1;
+  color: white;
+  font-size: 16 px;
+}
+.text1{
+  color:white ;
+  font-size: 32px;
+}
+.Hint{
+  font-size: 18px;
+  color:rgb(231, 181, 137);
+}
+.Howto {
+  color:rgb(219, 114, 198);
+  background:black;
+  font-size: 32px;
+}
+.Answer{
+  font-size: 18px;
+  color:rgb(231, 137, 137);
+}
