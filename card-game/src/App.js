@@ -18,8 +18,17 @@ function App() {
           2nd Word
           <WordCard value="Cute"/>
           
-          3nd Word
+          3rd Word
           <WordCard value="Pearl"/>
+          <details>
+            <summary>Hint</summary>
+              <p>
+                1.The word same meaning as "Hi", (5 alphabets)<br></br>
+                2.Adjetive of your cat,(4 alphabets)<br></br>
+                3.Precious thing in the ocean,(5 alphabets)<br></br>
+
+              </p>
+          </details>
         
     </div>
     );
